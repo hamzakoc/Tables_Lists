@@ -1,0 +1,366 @@
+html,
+body {
+  height: 100%;
+  position: relative;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  padding-top: 54px;
+  color: #868e96;
+
+}
+
+/* multiple font family added for h tags */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue',
+    Arial, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-weight: 700;
+  text-transform: uppercase;
+
+}
+
+
+h1 {
+  font-size: 2.8rem;
+  line-height: 3.5rem;
+  color: #343a40;
+  margin-top: 10%;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-bottom: 3%;
+}
+
+
+/* multiple font family added for li tags */
+li {
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue',
+    Arial, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-weight: 400;
+  line-height: 2em;
+
+}
+
+/* navigation bar */
+.navbar {
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  overflow: auto;
+  font-size: 25px;
+  padding: 25px;
+  position: fixed;
+  top: 0;
+  text-align: center;
+}
+
+/* navigation bar list item  */
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+}
+
+/* when mouse is over  */
+
+nav a:hover {
+  background-color: rgb(66, 111, 135);
+}
+
+
+/* internal navigation */
+
+aside {
+  float: left;
+  width: 10%;
+}
+
+aside ul {
+  list-style-type: none;
+  padding-left: 13%;
+  margin-top: 10%;
+  position: fixed;
+  line-height: 2em;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+aside li a {
+  color: rgb(10, 1, 1);
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: larger;
+}
+
+
+aside a:hover {
+  background-color: rgb(66, 111, 135);
+  color: white;
+}
+
+
+/* home page header */
+
+
+header {
+  margin-left: 380px;
+  margin-top: 5%;
+  margin-right: 20px;
+  padding-top: 5%;
+  padding-left: 40px;
+  padding-right: 30px;
+  height: 900px;
+
+
+}
+
+/* home page image */
+
+.imgheader {
+  border-radius: 7%;
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin: 2%;
+}
+
+/* home page about */
+
+.about {
+  padding-left: 20px;
+  width: 900px;
+  height: 200px;
+  color: rgb(29, 3, 3);
+  font-family: monospace;
+  font-size: 20px;
+  text-align: justify;
+  line-height: 1.5;
+
+}
+
+/* resume page sections */
+
+section {
+  float: right;
+  width: 70%;
+}
+
+.education {
+  margin-top: 20%;
+
+}
+
+.education,
+.experience,
+.certificates,
+.goals,
+.interests,
+.coursework,
+.skills {
+
+  padding: 2%;
+  margin: 2%;
+}
+
+
+
+/* script validation  */
+
+.script {
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+}
+
+
+/* footer  */
+
+.footer {
+  clear: both;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+
+/* all below related to list page */
+
+.list {
+  width: 100%;
+  text-align: center;
+}
+
+#list3 {
+  text-align: start;
+}
+
+
+
+.list1,
+.list2,
+.list3,
+.list4,
+.list5 {
+  display: inline-block;
+}
+
+.list1 table,
+.list1 ul,
+.list1 ol {
+  border: 1px solid black;
+  margin: 10px;
+  padding-right: 10px;
+
+}
+
+.list2 table,
+.list2 ul,
+.list2 ol {
+  border: 1px solid black;
+  margin: 10px;
+  padding-right: 10px;
+}
+
+
+.list3 table {
+  border: 1px solid black;
+  margin: 10px;
+  padding-right: 10px;
+}
+
+.list4 td {
+  border: 1px solid black;
+  margin: 10px;
+  text-align: center;
+  padding-right: 10px;
+}
+
+.list5 td {
+  border: 1px solid black;
+  margin: 10px;
+  text-align: center;
+  padding-right: 10px;
+}
+
+.list2 td:nth-child(1) ul {
+  list-style-type: disc;
+}
+
+.list2 td:nth-child(2) ul {
+  list-style-type: circle;
+}
+
+.list2 td:nth-child(3) ul {
+  list-style-type: square;
+}
+
+
+
+/* below codes are related to the tables */
+
+.tablediv {
+  margin-top: 100px;
+  padding-left: 30%;
+  padding-right: 30%;
+
+}
+
+
+table,
+tr,
+th,
+tr,
+td {
+  border: 2px solid rgb(27, 3, 3);
+
+}
+
+
+.table1 {
+  background-color: rgb(134, 218, 230);
+  width: 50%;
+  border-spacing: 10px;
+  text-align: center;
+  color: rgb(59, 56, 4);
+
+}
+
+.table2 {
+  width: 50%;
+  text-align: center;
+}
+
+
+
+.table3 {
+  padding: 20px;
+}
+
+
+#caption-bottom {
+  caption-side: bottom;
+}
+
+
+
+#horizon,
+#vertical,
+#middle {
+  height: 100px
+}
+
+#horizon {
+  vertical-align: top;
+}
+
+#middle {
+  vertical-align: center;
+}
+
+#vertical {
+  vertical-align: bottom;
+}
+
+#horizon1,
+#vertical1,
+#middle1 {
+  text-align: left;
+  width: 200px
+}
+
+#horizon2,
+#vertical2,
+#middle2 {
+  text-align: center;
+  width: 200px
+}
+
+#horizon3,
+#vertical3,
+#middle3 {
+  text-align: right;
+  width: 200px
+}
+
+
+.text-vertical {
+  writing-mode: vertical-rl;
+}

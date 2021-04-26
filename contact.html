@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <meta name="description" content="Contact">
+    <meta name="author" content="Hamza Koc">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML,CSS,PHP,JavaScript, contact">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="shortcut icon" href="images/logo.jpg">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+ <!--fontawesome-->
+ 
+<style>
+.contact{
+  width: 100%; 
+  text-align: center;
+}
+
+#map {
+        height: 400px;  /* The height is 400 pixels */
+        width: 20%;  /* The width is the width of the web page */
+        display: inline-block; 
+       }
+
+</style>
+
+</head>
+<body>
+  
+  <nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="resume.html">Resume</a>
+    <a href="list.html">Lists</a>
+    <a href="table.html">Tables</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+<br><br><br><br><br>
+
+<div class="contact"> 
+<h2>
+  Get in Touch
+</h2>
+
+<p>
+
+ <a href="mailto:hamza.koc@georgebrown.ca?Subject=Assignment2&body=Student&nbsp;id=101274109%0AFirstName=Hamza%0ALastName=Koc" target="_top">
+
+  hamza.koc@georgebrown.ca
+ </a>
+
+</p>
+
+<form class="form" action="mail.php" method="POST">
+  <p>Name</p> <input type="text" name="name">
+  <p>Email</p> <input type="text" name="email">
+  <p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
+  <input type="submit" value="Send"><input type="reset" value="Clear">
+  </form>
+<br><br><br>
+
+
+<div id="map"></div>
+    <script>
+
+function initMap() {
+
+  var uluru = {lat: 43.8474, lng: -79.56444};
+
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 13, center: uluru});
+
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
+    </script>
+  
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBSkxaMDEqM2_G99Wh09BDke-7zVQF0w10&callback=initMap">
+    </script>
+
+
+
+
+
+
+<br><br><br>
+
+
+</div>
+
+
+<footer class="footer">   <!-- Footer-->
+  <h2 id="contact" class="contact">Contact</h2>
+   <a href="https://github.com/hamzakoc" target="_blank" ><i class="fab fa-github fa-3x" ></i></a>
+   <a href="https://ca.linkedin.com/in/hamzakooc" target="_blank"><i class="fab fa-linkedin fa-3x" ></i></a>
+ 
+  </footer>
+
+  <footer>
+  
+    <p>Reviewer: Resul Yuksuktepe, 101259410 <a href="reviews/reviewer_101259410_resul_yuksektepe.pdf">Reviewer PDF</a></p>
+    
+    <p> Reviewee: Resul Yuksuktepe, 101274109 <a href="reviews/reviewee_101259410_resul_yuksektepe.pdf">Reviewee PDF</a></p>
+  
+  </footer>
+  <script id="script" src=https://my.gblearn.com/js/loadscript.js></script>
+</body>
+</html>
