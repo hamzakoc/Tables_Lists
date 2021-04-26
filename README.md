@@ -1,3 +1,3 @@
-# Assignmnet 2 Web
+# Assignment 2 Web
 
 Resume, Tables, List
